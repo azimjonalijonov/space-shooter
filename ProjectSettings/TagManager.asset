@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Space Object
   layers:
   - Default
   - TransparentFX
@@ -13,8 +14,8 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
+  - Player
+  - PlayerShot
   - 
   - 
   - 
@@ -46,6 +47,9 @@ TagManager:
     locked: 0
   - name: Space Objects
     uniqueID: 1181144561
+    locked: 0
+  - name: Shots
+    uniqueID: 1673531443
     locked: 0
   - name: Player
     uniqueID: 2420258287
