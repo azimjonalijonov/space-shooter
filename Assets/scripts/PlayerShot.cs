@@ -21,8 +21,6 @@ public class PlayerShot : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-
-
         Instantiate(impactEffect, transform.position,transform.rotation);
 
         if(other.tag=="Space Object")
@@ -30,7 +28,13 @@ public class PlayerShot : MonoBehaviour
             Instantiate(objectExplosion,other.transform.position,other.transform.rotation);
             Destroy(other.gameObject);
         }
-Destroy(this.gameObject);
+
+        if (other.tag == "Enemy")
+        {
+            other.GetComponent<EnemyController>().HurtEnemy();
+        }
+
+        Destroy(this.gameObject);
     }
     private void OnBecameInvisible(){
         Destroy(this.gameObject);

@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\space-shooter\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{27D4D0CC-4EA5-88C2-B477-AC3FB1DE40AC}|Assembly-CSharp.csproj|c:\\users\\user\\space-shooter\\assets\\scripts\\playershot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27D4D0CC-4EA5-88C2-B477-AC3FB1DE40AC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playershot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27D4D0CC-4EA5-88C2-B477-AC3FB1DE40AC}|Assembly-CSharp.csproj|c:\\users\\user\\space-shooter\\assets\\scripts\\enemyshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27D4D0CC-4EA5-88C2-B477-AC3FB1DE40AC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemyshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27D4D0CC-4EA5-88C2-B477-AC3FB1DE40AC}|Assembly-CSharp.csproj|c:\\users\\user\\space-shooter\\assets\\scripts\\enemycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27D4D0CC-4EA5-88C2-B477-AC3FB1DE40AC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27D4D0CC-4EA5-88C2-B477-AC3FB1DE40AC}|Assembly-CSharp.csproj|C:\\Users\\user\\space-shooter\\assets\\scripts\\healthmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27D4D0CC-4EA5-88C2-B477-AC3FB1DE40AC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\healthmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27D4D0CC-4EA5-88C2-B477-AC3FB1DE40AC}|Assembly-CSharp.csproj|C:\\Users\\user\\space-shooter\\assets\\scripts\\movingobjects.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27D4D0CC-4EA5-88C2-B477-AC3FB1DE40AC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\movingobjects.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27D4D0CC-4EA5-88C2-B477-AC3FB1DE40AC}|Assembly-CSharp.csproj|C:\\Users\\user\\space-shooter\\assets\\scripts\\hurtplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27D4D0CC-4EA5-88C2-B477-AC3FB1DE40AC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\hurtplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PlayerShot.cs",
+              "DocumentMoniker": "C:\\Users\\user\\space-shooter\\Assets\\scripts\\PlayerShot.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\PlayerShot.cs",
+              "ToolTip": "C:\\Users\\user\\space-shooter\\Assets\\scripts\\PlayerShot.cs",
+              "RelativeToolTip": "Assets\\scripts\\PlayerShot.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwCMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T19:50:16.924Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EnemyShot.cs",
+              "DocumentMoniker": "C:\\Users\\user\\space-shooter\\Assets\\scripts\\EnemyShot.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\EnemyShot.cs",
+              "ToolTip": "C:\\Users\\user\\space-shooter\\Assets\\scripts\\EnemyShot.cs",
+              "RelativeToolTip": "Assets\\scripts\\EnemyShot.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T19:49:53.007Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MovingObjects.cs",
+              "DocumentMoniker": "C:\\Users\\user\\space-shooter\\Assets\\scripts\\MovingObjects.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\MovingObjects.cs",
+              "ToolTip": "C:\\Users\\user\\space-shooter\\Assets\\scripts\\MovingObjects.cs",
+              "RelativeToolTip": "Assets\\scripts\\MovingObjects.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T18:05:55.865Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EnemyController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\space-shooter\\Assets\\scripts\\EnemyController.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\EnemyController.cs",
+              "ToolTip": "C:\\Users\\user\\space-shooter\\Assets\\scripts\\EnemyController.cs",
+              "RelativeToolTip": "Assets\\scripts\\EnemyController.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAYwBUAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T18:05:50.939Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HurtPlayer.cs",
+              "DocumentMoniker": "C:\\Users\\user\\space-shooter\\Assets\\scripts\\HurtPlayer.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\HurtPlayer.cs",
+              "ToolTip": "C:\\Users\\user\\space-shooter\\Assets\\scripts\\HurtPlayer.cs",
+              "RelativeToolTip": "Assets\\scripts\\HurtPlayer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T17:33:41.793Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HealthManager.cs",
+              "DocumentMoniker": "C:\\Users\\user\\space-shooter\\Assets\\scripts\\HealthManager.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\HealthManager.cs",
+              "ToolTip": "C:\\Users\\user\\space-shooter\\Assets\\scripts\\HealthManager.cs",
+              "RelativeToolTip": "Assets\\scripts\\HealthManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T17:32:58.445Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
