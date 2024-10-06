@@ -7,7 +7,9 @@ public class GameManager : MonoBehaviour
     public static GameManager instance;
 
     public int currentLives=3;
+    public int currentScore;
     public float respawnTime=2f;
+    private int highScore=500;
 
     public void Awake(){
         instance=this;
@@ -28,6 +30,11 @@ public class GameManager : MonoBehaviour
     void Start()
     {
                 UIManager.instance.livesText.text="x "+currentLives;
+                UIManager.instance.scoreText.text="Score: "+currentScore;
+                       
+                       highScore=PlayerPrefs.GetInt("Record");
+                            UIManager.instance.highScoreText.text="Record: "+highScore;
+
 
         
     }
@@ -42,6 +49,19 @@ public class GameManager : MonoBehaviour
         HealthManager.instance.Respawn();
                      WaveManager.instance.continueSpawning();
 
+
+    }
+
+    public void AddScore(int scoreToAdd){
+        currentScore+=scoreToAdd;
+        UIManager.instance.scoreText.text="Score: "+currentScore;
+        if(currentScore>highScore){
+            highScore=currentScore;
+            UIManager.instance.highScoreText.text="Record: "+highScore;
+       
+       
+              PlayerPrefs.SetInt("Record",highScore);
+        }
 
     }
 }

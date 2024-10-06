@@ -10,6 +10,8 @@ public class UIManager : MonoBehaviour
 public static UIManager instance;
 public GameObject gameOverScreen;
 public TextMeshProUGUI livesText;
+public TextMeshProUGUI scoreText,highScoreText;
+
 public Slider healthBar;
 
 private void Awake(){

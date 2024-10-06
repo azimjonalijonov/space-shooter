@@ -17,6 +17,7 @@ public class EnemyController : MonoBehaviour
 
     public bool canShoot;
     private bool allowShooting;
+    public int scoreVal=100;
 
     public int currentHealth;
     public GameObject deathEffect;
@@ -64,6 +65,7 @@ public class EnemyController : MonoBehaviour
         currentHealth--;
         if (currentHealth <= 0)
         {
+            GameManager.instance.AddScore(scoreVal);
             Destroy(gameObject);
             Instantiate(deathEffect, transform.position, transform.rotation);
         }

@@ -27,6 +27,7 @@ public class PlayerShot : MonoBehaviour
         {
             Instantiate(objectExplosion,other.transform.position,other.transform.rotation);
             Destroy(other.gameObject);
+            GameManager.instance.AddScore(50);
         }
 
         if (other.tag == "Enemy")
