@@ -14,17 +14,21 @@ public class GameManager : MonoBehaviour
     }
     public void KillPlayer(){
         currentLives--;
+        UIManager.instance.livesText.text="x "+currentLives;
 
         if(currentLives>0){
             StartCoroutine(RespawnCo());
 
         }else{
-
+    UIManager.instance.gameOverScreen.SetActive(true);
+    WaveManager.instance.canSpawnWaves=false;
         }
     }
     // Start is called before the first frame update
     void Start()
     {
+                UIManager.instance.livesText.text="x "+currentLives;
+
         
     }
 
