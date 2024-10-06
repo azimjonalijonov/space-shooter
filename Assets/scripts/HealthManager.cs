@@ -13,6 +13,9 @@ public class HealthManager : MonoBehaviour
     private float invincibleLength=2f;
     private float invinceCounter;
     public SpriteRenderer theSR;
+    public int shieldPwr;
+    public int shieldMaxPwr=3;
+    public GameObject theShield;
 
 
 
@@ -23,6 +26,7 @@ public class HealthManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        // ActivateShield();
         currenthealth = maxHealth;
         UIManager.instance.healthBar.maxValue=maxHealth;
         UIManager.instance.healthBar.value=currenthealth;
@@ -45,7 +49,13 @@ public class HealthManager : MonoBehaviour
     {
         if(invinceCounter<=0){
 
-        
+
+        if(theShield.activeInHierarchy){
+        shieldPwr--;
+        if(shieldPwr<=0){
+            theShield.SetActive(false);
+        }
+        }else{
         currenthealth--;
                 UIManager.instance.healthBar.value=currenthealth;
 
@@ -58,6 +68,7 @@ public class HealthManager : MonoBehaviour
             WaveManager.instance.canSpawnWaves=false;
         }
         }
+        }
     }
     public void Respawn(){
         gameObject.SetActive(true);
@@ -66,5 +77,9 @@ public class HealthManager : MonoBehaviour
 
         invinceCounter=invincibleLength;
         theSR.color=new Color(theSR.color.r,theSR.color.g,theSR.color.b, .5f);
+    }
+    public void ActivateShield(){
+        theShield.SetActive(true);
+        shieldPwr=shieldMaxPwr;
     }
 }

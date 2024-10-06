@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1521.6
     height: 758.4
   m_ShowMode: 4
-  m_Title: Game
+  m_Title: Hierarchy
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 492}
   m_MaxSize: {x: 10000, y: 10000}
@@ -100,7 +100,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 100}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 137
+  controlID: 74
   draggingID: 0
 --- !u!114 &5
 MonoBehaviour:
@@ -316,9 +316,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 18ac0000
-      m_LastClickedID: 44056
-      m_ExpandedIDs: 9489feff9ac8feffe0c9fefff0ab000018ac000026ac00001eaf000046af0000
+      m_SelectedIDs: 626dfdff
+      m_LastClickedID: -168606
+      m_ExpandedIDs: 8c71feffbec8feffe0c9feff7cb00000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -383,7 +383,7 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 0
+  m_LastVerticalScrollValue: 978.4001
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:
@@ -434,7 +434,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/PreFabs/PowerUps
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -442,16 +442,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/PreFabs/PowerUps
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: D:\final4\space-shooter
+  m_LastProjectPath: D:\final7\space-shooter
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 30060000
-    m_LastClickedID: 1584
-    m_ExpandedIDs: 0000000004060000480600003007000000ca9a3bffffff7f
+    m_SelectedIDs: b0c30000
+    m_LastClickedID: 50096
+    m_ExpandedIDs: 000000000406000048060000d00600003007000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -613,18 +613,18 @@ MonoBehaviour:
       y: 21
       width: 780.6
       height: 303.2
-    m_Scale: {x: 0.54258716, y: 0.54258716}
-    m_Translation: {x: 390.3, y: 153.194}
+    m_Scale: {x: 0.5265205, y: 0.5265205}
+    m_Translation: {x: 390.3, y: 151.60675}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -719.3314
-      y: -282.3399
-      width: 1438.6628
-      height: 558.80426
+      x: -741.2817
+      y: -287.94083
+      width: 1482.5634
+      height: 575.8561
     m_MinimalGUI: 1
   m_defaultScale: 0.5263889
   m_LastWindowPixelSize: {x: 975.75, y: 405.25}
@@ -697,7 +697,7 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: 0, y: 0}
+      snapOffset: {x: 0, y: 24.8}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: unity-scene-view-toolbar
@@ -723,7 +723,7 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: 0, y: 0}
+      snapOffset: {x: 0, y: 24.8}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: unity-transform-toolbar
@@ -1002,9 +1002,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 931.8544, y: 286.78354, z: 0.06127678}
+    m_Target: {x: -4.7215414, y: -1.1249187, z: -0.025110053}
     speed: 2
-    m_Value: {x: 931.8544, y: 286.78354, z: 0.06127678}
+    m_Value: {x: -5.3719482, y: -1.025435, z: -0.028412277}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1054,9 +1054,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 480.64746
+    m_Target: 7.0079885
     speed: 2
-    m_Value: 480.64746
+    m_Value: 7.3382077
   m_Ortho:
     m_Target: 1
     speed: 2

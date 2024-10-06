@@ -66,6 +66,7 @@
     <Compile Include="Assets\scripts\MovingObjects.cs" />
     <Compile Include="Assets\scripts\HurtPlayer.cs" />
     <Compile Include="Assets\scripts\GameManager.cs" />
+    <Compile Include="Assets\scripts\PowerUp.cs" />
     <Compile Include="Assets\scripts\DestroyOverTime.cs" />
     <Compile Include="Assets\scripts\BackgroudScroller.cs" />
     <Compile Include="Assets\scripts\PlayerShot.cs" />
