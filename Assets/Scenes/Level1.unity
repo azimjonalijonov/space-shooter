@@ -594,6 +594,52 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+--- !u!1 &316452506
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 316452508}
+  - component: {fileID: 316452507}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &316452507
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 316452506}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7cd68443ec62594085e4fd84a1293f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentLives: 3
+  respawnTime: 2
+--- !u!4 &316452508
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 316452506}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 24, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &446917427
 GameObject:
   m_ObjectHideFlags: 0
@@ -1047,8 +1093,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currenthealth: 0
-  maxHealth: 1000
+  maxHealth: 10
   deathEffect: {fileID: 5023129474315123549, guid: f682c11b9b1d2ca45b1b50b1561dcb58, type: 3}
+  theSR: {fileID: 673213889}
 --- !u!1 &690210726
 GameObject:
   m_ObjectHideFlags: 0
@@ -1875,6 +1922,94 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1935650816
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1935650817}
+  - component: {fileID: 1935650818}
+  m_Layer: 0
+  m_Name: Wave spawn point
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1935650817
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1935650816}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 12, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1935650818
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1935650816}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e24ad710a58d9ce4294d07a717e7763c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waves:
+  - timeToSpawn: 2
+    theWave: {fileID: 4141725735307974241, guid: 475436f82ec37074984bb55dc8c678d5, type: 3}
+  - timeToSpawn: 3
+    theWave: {fileID: 3217907289822386195, guid: f3ca08a885930714e9c8738fdfa579d1, type: 3}
+  - timeToSpawn: 1
+    theWave: {fileID: 3217907289822386195, guid: f3ca08a885930714e9c8738fdfa579d1, type: 3}
+  - timeToSpawn: 3
+    theWave: {fileID: 4141725735307974241, guid: 475436f82ec37074984bb55dc8c678d5, type: 3}
+  - timeToSpawn: 3
+    theWave: {fileID: 4141725735307974241, guid: 475436f82ec37074984bb55dc8c678d5, type: 3}
+  - timeToSpawn: 2
+    theWave: {fileID: 3217907289822386195, guid: f3ca08a885930714e9c8738fdfa579d1, type: 3}
+  - timeToSpawn: 2
+    theWave: {fileID: 4141725735307974241, guid: 475436f82ec37074984bb55dc8c678d5, type: 3}
+  - timeToSpawn: 3
+    theWave: {fileID: 3217907289822386195, guid: f3ca08a885930714e9c8738fdfa579d1, type: 3}
+  - timeToSpawn: 1
+    theWave: {fileID: 4141725735307974241, guid: 475436f82ec37074984bb55dc8c678d5, type: 3}
+  - timeToSpawn: 2
+    theWave: {fileID: 3217907289822386195, guid: f3ca08a885930714e9c8738fdfa579d1, type: 3}
+  - timeToSpawn: 2
+    theWave: {fileID: 3217907289822386195, guid: f3ca08a885930714e9c8738fdfa579d1, type: 3}
+  - timeToSpawn: 2
+    theWave: {fileID: 3217907289822386195, guid: f3ca08a885930714e9c8738fdfa579d1, type: 3}
+  - timeToSpawn: 2
+    theWave: {fileID: 3217907289822386195, guid: f3ca08a885930714e9c8738fdfa579d1, type: 3}
+  - timeToSpawn: 2
+    theWave: {fileID: 3217907289822386195, guid: f3ca08a885930714e9c8738fdfa579d1, type: 3}
+  - timeToSpawn: 2
+    theWave: {fileID: 3217907289822386195, guid: f3ca08a885930714e9c8738fdfa579d1, type: 3}
+  - timeToSpawn: 2
+    theWave: {fileID: 3217907289822386195, guid: f3ca08a885930714e9c8738fdfa579d1, type: 3}
+  - timeToSpawn: 2
+    theWave: {fileID: 3217907289822386195, guid: f3ca08a885930714e9c8738fdfa579d1, type: 3}
+  - timeToSpawn: 2
+    theWave: {fileID: 3217907289822386195, guid: f3ca08a885930714e9c8738fdfa579d1, type: 3}
+  - timeToSpawn: 2
+    theWave: {fileID: 3217907289822386195, guid: f3ca08a885930714e9c8738fdfa579d1, type: 3}
+  - timeToSpawn: 2
+    theWave: {fileID: 3217907289822386195, guid: f3ca08a885930714e9c8738fdfa579d1, type: 3}
+  currentWave: 0
+  timeToNextWave: 0
+  canSpawnWaves: 1
 --- !u!1 &1965078090
 GameObject:
   m_ObjectHideFlags: 0
@@ -2129,3 +2264,5 @@ SceneRoots:
   - {fileID: 1965078094}
   - {fileID: 1575014629}
   - {fileID: 221810625}
+  - {fileID: 1935650817}
+  - {fileID: 316452508}
